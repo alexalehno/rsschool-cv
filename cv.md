@@ -17,11 +17,25 @@ The skill of concentrating on the tasks set does not allow me to lose my working
 
 ## Skills
 
-- JavaScript, ES6,  
-- HTML, HTML5,  
-- CSS, CSS3,  
-- AJAX, SPA, JSON,  
-- Canvas, SVG,  
-- Git, OOP  
+- JavaScript, ES6,
+- HTML, HTML5,
+- CSS, CSS3,
+- AJAX, SPA, JSON,
+- Canvas, SVG,
+- Git, OOP
 
-**English Proficiency: Pre-Intermediate**  
+**English Proficiency: Pre-Intermediate**
+
+## Work experience
+
+**04.2021 - 05.2021**  
+**IT-Academy**  
+Working on a [graduation project](https://alexalehno.github.io/Aleksandr_Alehno/project/).  
+The project is a single-page web application.  
+HTML, CSS and JavaScript technologies were used.  
+
+**02.2020 - 05.2020**  
+**IT-Academy**  
+Working on a [graduation project](https://alexalehno.github.io/boostfolia/src/).  
+The project is a cross-browser responsive website.  
+HTML, CSS, Gulp, SASS, jQuery, JavaScript, Grid Layout, BEM technologies were used.  
