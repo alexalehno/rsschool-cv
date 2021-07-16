@@ -44,9 +44,9 @@ HTML, CSS, Gulp, SASS, jQuery, JavaScript, Grid Layout, BEM technologies were us
 
 **09.2014-06.2018**  
 **Belarusian State Academy of Communications**, Minsk  
-Infocommunication networks  
+Infocommunication networks
 
-## Courses  
+## Courses
 
 **02.2021 - 05.2021**  
 **IT-Academy**, Minsk  
@@ -59,3 +59,9 @@ Studied: functions, arrays, objects, OOP, events, timers, animation, JSON, AJAX,
 Website development using HTML, CSS, and JavaScript  
 Studied: HTML5, CSS3, Sass, Flex, Greed, Animation, forms, Adaptive Web Design, media- queries  
 [Certificate of successful completion of the course](https://alexalehno.github.io/Aleksandr_Alehno/certificate_HTML_CSS_JS/certificate_HTML_CSS_JS.html)
+
+## Additional Information
+
+I am fond of music, reading professional literature (“You don't know JS”, “Expressive JavaScript”, ”Grokking Algorithms” ), watching movies and TV shows. I get acquainted with the technical documentation on the official websites ([developer.mozilla.org](https://developer.mozilla.org/en-US/), [www.w3schools.com](https://www.w3schools.com/), [html.spec.whatwg.org](https://html.spec.whatwg.org/), [262.ecma-international.org](https://262.ecma-international.org/)). In between studying new technologies, I try to set aside time for independent learning to play the electric guitar, and also attend various concerts, festivals and theater performances.
+
+---
