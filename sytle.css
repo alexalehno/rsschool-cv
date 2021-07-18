@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 70%;
+  padding: 20px 50px;
+  margin: 20px auto;
+  background-color: beige;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: inline-block;
+  border-bottom: 3px solid rgb(165, 165, 165);
+}
+
+.photo {
+  float: right;
+  width: 190px;
+  margin-top: 30px;
+}
+
+.contacts {
+  padding: 0;
+  list-style: none;
+}
