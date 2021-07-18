@@ -17,6 +17,10 @@ h1 {
   border-bottom: 3px solid rgb(165, 165, 165);
 }
 
+h2 {
+  background-color: rgb(190, 184, 184);
+}
+
 .photo {
   float: right;
   width: 190px;
@@ -26,4 +30,8 @@ h1 {
 .contacts {
   padding: 0;
   list-style: none;
+}
+
+.text_indent {
+  text-indent: 30px;
 }
