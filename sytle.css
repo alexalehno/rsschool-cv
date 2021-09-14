@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-  max-width: 70%;
+  max-width: 1030px;
+  min-width: 700px;
   padding: 20px 50px;
   margin: 20px auto;
   background-color: beige;
@@ -23,13 +24,19 @@ h2 {
 
 .photo {
   float: right;
-  width: 190px;
+  width: 170px;
   margin-top: 30px;
 }
 
 .contacts {
   padding: 0;
   list-style: none;
+}
+
+.objective p {
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: underline;
 }
 
 .text_indent {
