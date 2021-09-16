@@ -1,0 +1,134 @@
+@media all and (max-width: 850px) {
+  h1 {
+    border-bottom: none
+  }
+
+  nav {
+    position: absolute;
+    top: -500px;
+    right: 0;
+    border-bottom: none;
+  }
+
+  .nav-items {
+    display: block;
+    padding: 35px;
+    background: rgb(248 201 80 / 70%);
+  }
+
+  .nav-item {
+    padding: 5px;
+  }
+
+  .nav-item:first-child {
+    border-top: 2px solid black;
+  }
+
+  .nav-item:last-child {
+    border-bottom: 2px solid black;
+  }
+
+  .nav-item a {
+    border: none;
+    font-size: 23px;
+    font-weight: 200;
+    text-shadow: 0px 0px 10px rgb(255 255 255);
+  }
+
+  .burger-wrap {
+    margin: 20px 0;
+    border-bottom: 3px solid rgb(165, 165, 165);
+  }
+
+  .burger__menu {
+    display: block;
+  }
+
+}
+
+@media all and (max-width: 760px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 5px 20px;
+  }
+
+  h1 {
+    font-size: 33px;
+  }
+
+  .burger-wrap {
+    margin-bottom: 20px;
+  }
+
+  .menu__active {
+    right: 152px;
+  }
+
+  .photo {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 640px) {
+  section,
+  header,
+  footer {
+    padding: 0 10px;
+  }
+
+  .container {
+    padding: 5px 10px;
+  }
+
+  .contacts-wrap {
+    flex-wrap: wrap-reverse;
+  }
+
+  .photo {
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 438px) {
+  nav {
+    left: 0;
+    width: 100%;
+  }
+
+  .nav-hidden {
+    top: 111px;
+  }
+
+  .nav-item a {
+    text-decoration: underline;
+  }
+
+}
+
+@media all and (max-width: 360px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    line-height: 26px;
+  }
+
+  .nav-hidden {
+    top: 96px;
+  }
+
+  .github_lg,
+  .rss_lg,
+  .date_footer {
+    margin: 0 10px;
+  }
+}

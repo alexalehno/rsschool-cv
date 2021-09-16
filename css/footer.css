@@ -1,0 +1,32 @@
+
+footer {
+  margin-bottom: 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 3px solid rgb(165, 165, 165);
+}
+
+
+.github_lg,
+.rss_lg,
+.date_footer {
+  margin: 0 15px;
+}
+
+.github_lg {
+  width: 30px;
+}
+
+.rss_lg {
+  width: 100px;
+}
+
+.date_footer {
+  font-weight: 900;
+}
