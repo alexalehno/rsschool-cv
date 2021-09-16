@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+header,
+section,
+footer {
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1030px;
+  padding: 5px 50px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-top: 0;
+  background-color: rgb(190, 184, 184);
+}
+
+p {
+  line-height: 28px;
+}
+
+.bg-color {
+  background-color: beige;
+}
