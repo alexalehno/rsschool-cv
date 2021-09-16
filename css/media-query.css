@@ -13,7 +13,7 @@
   .nav-items {
     display: block;
     padding: 35px;
-    background: rgb(248 201 80 / 70%);
+    background: rgb(248 201 80 / 85%);
   }
 
   .nav-item {
@@ -102,11 +102,6 @@
   .nav-hidden {
     top: 111px;
   }
-
-  .nav-item a {
-    text-decoration: underline;
-  }
-
 }
 
 @media all and (max-width: 360px) {
