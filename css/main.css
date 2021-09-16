@@ -16,6 +16,12 @@ h1 {
   border-bottom: 3px solid rgb(165, 165, 165);
 }
 
+.nav-header {
+  display: none;
+  margin: 15px 0 10px 5px;
+  color: #0000005c;
+}
+
 .burger__menu {
   display: none;
   margin: 10px;
