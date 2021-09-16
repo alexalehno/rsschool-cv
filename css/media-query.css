@@ -105,12 +105,9 @@
 }
 
 @media all and (max-width: 360px) {
-  body {
-    font-size: 14px;
-  }
 
   h1 {
-    font-size: 28px;
+    font-size: 30px;
   }
 
   p {
