@@ -27,6 +27,11 @@ h2 {
   background-color: rgb(190, 184, 184);
 }
 
+h4 {
+  display: inline-block;
+  margin: 0;
+}
+
 p {
   line-height: 28px;
 }
