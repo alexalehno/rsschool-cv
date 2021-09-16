@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href='./css/highlight/atom-one-dark-reasonable.min.css'/>
   <link rel="stylesheet" href="./css/sytle.css" />
   <title>CV-ALEKSANDR</title>
 </head>
@@ -22,6 +23,7 @@
           <li class="nav-item"><a href="#summury">Summury</a></li>
           <li class="nav-item"><a href="#skills">Skills</a></li>
           <li class="nav-item"><a href="#experience">Experience</a></li>
+          <li class="nav-item"><a href="#code">Code</a></li>
           <li class="nav-item"><a href="#education">Education</a></li>
           <li class="nav-item"><a href="#courses">Courses</a></li>
           <li class="nav-item"><a href="#additional">Additional</a></li>
@@ -47,16 +49,9 @@
             <li class="contacts-item"><b>Phone:</b> +375 33 658 33 99</li>
             <li class="contacts-item"><b>Email:</b> aleksandr888alehno@gmail.com</li>
             <li class="contacts-item"><b>Skype:</b> Aleksandr Alehno</li>
-            <li class="contacts-item">
-              <b>Linkedin:</b>
-              <a href="https://www.linkedin.com/in/aleksandr-alehno-889bb0213/">Aleksandr Alehno</a>
-            </li class="contacts-item">
-            <li class="contacts-item">
-              <b>GitHub:</b>
-              <a href="https://github.com/alexalehno">alexalehno</a>
-            </li class="contacts-item">
+            <li class="contacts-item"><b>Linkedin:</b> <a href="https://www.linkedin.com/in/aleksandr-alehno-889bb0213/">Aleksandr Alehno</a></li>
+            <li class="contacts-item"><b>GitHub:</b> <a href="https://github.com/alexalehno">alexalehno</a></li>
           </ul>
-
           <div class="photo"></div>
         </div>
       </div>
@@ -117,6 +112,32 @@
           The project is a cross-browser responsive website. HTML, CSS, Gulp,
           SASS, jQuery, JavaScript, Grid Layout, BEM technologies were used.
         </p>
+      </div>
+    </section>
+
+    <section id="code">
+      <div class="container bg-color">
+        <h2>Сode example</h2>
+        <p>The amount all the values that don't appear below a "0".</p>
+        <pre class="code-example ">
+  <code class="prettyprint">
+    function getMatrixElementsSum(matrix) {
+      let sum = 0;
+      for (let i = 0; i &lt; matrix.length; i++) {
+        next: for (let j = 0; j &lt; matrix[i].length; j++) {
+          if (matrix[i - 1]) {
+            if (matrix[i - 1][j] === 0) {
+              continue next;
+            }
+          }
+          sum += matrix[i][j];
+        }
+      }
+      return sum;
+    }
+  </code>
+</pre>
+
       </div>
     </section>
 
@@ -192,6 +213,8 @@
   </footer>
 
   <script src="./js/script.js"></script>
+  <script src="./js/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 </body>
 
 </html>

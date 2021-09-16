@@ -79,3 +79,7 @@ h1 {
 .text_indent {
   text-indent: 30px;
 }
+
+.code-example {
+  overflow: auto;
+}

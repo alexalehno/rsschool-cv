@@ -1,4 +1,4 @@
-@media all and (max-width: 850px) {
+@media all and (max-width: 895px) {
   h1 {
     border-bottom: none
   }
@@ -115,7 +115,7 @@
   }
 
   .nav-hidden {
-    top: 96px;
+    top: 103px;
   }
 
   .github_lg,
