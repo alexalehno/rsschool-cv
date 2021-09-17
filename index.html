@@ -16,13 +16,14 @@
 
 <body>
   <header>
-    <div class="container pos-nav bg-nav">
+    <div class="container nav-container bg-nav">
       <nav>
         <h3 class="nav-header">Navigation</h3>
         <ul class="nav-items ">
           <li class="nav-item"><a href="#objective">Objective</a></li>
           <li class="nav-item"><a href="#summury">Summury</a></li>
           <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
           <li class="nav-item"><a href="#experience">Experience</a></li>
           <li class="nav-item"><a href="#code">Code</a></li>
           <li class="nav-item"><a href="#education">Education</a></li>
@@ -36,7 +37,7 @@
   <main>
     <section class="contact-info">
       <div class="container bg-color">
-        <div class="burger-wrap">
+        <div class="wrap-h1-burger">
           <h1>ALEKSANDR ALEHNO</h1>
 
           <div class="burger__menu">
@@ -103,6 +104,18 @@
       </div>
     </section>
 
+    <section id="projects">
+      <div class="container bg-color">
+        <h2>Projects</h2>
+        <p>There are some projects here:</p>
+        <div class="project-wrap">
+          <a class="project-item project-one" target="_blank"
+            href="https://alexalehno.github.io/Aleksandr_Alehno/project/"></a>
+          <a class="project-item project-two" target="_blank" href="https://alexalehno.github.io/boostfolia/src/"></a>
+        </div>
+      </div>
+    </section>
+
     <section id="experience">
       <div class="container bg-color">
         <h2>Work experience</h2>
@@ -129,7 +142,7 @@
     <section id="code">
       <div class="container bg-color">
         <h2>Сode example</h2>
-        <p>The amount all the values that don't appear below a "0".</p>
+        <p>Sum all the values that don't appear below "0".</p>
         <pre class="code-example ">
   <code class="prettyprint">
     function getMatrixElementsSum(matrix) {
