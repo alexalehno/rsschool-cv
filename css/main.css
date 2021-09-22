@@ -111,3 +111,8 @@ h1 {
 .code-example {
   overflow: auto;
 }
+
+.code-item {
+  width: 620px;
+  margin: 0 auto;
+}
