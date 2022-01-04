@@ -91,6 +91,7 @@ h1 {
   box-sizing: border-box;
   margin: 15px 5px;
   border: 4px solid #beb8b8;
+  overflow: hidden;
   background-size: cover;
   background-position-x: 50%;
   background-repeat: no-repeat;
@@ -154,6 +155,9 @@ h1 {
   background-image: url("../media/project4.jpg");
 }
 
+.project-five {
+  background-image: url("../media/project5.jpg");
+}
 
 /* ....................... */
 
