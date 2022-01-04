@@ -112,11 +112,6 @@
   .nav-hidden {
     top: 127px;
   }
-
-  .project-item {
-    width: 260px;
-    height: 130px;
-  }
 }
 
 @media all and (max-width: 360px) {
