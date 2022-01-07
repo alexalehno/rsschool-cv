@@ -78,9 +78,15 @@
     width: 200px;
     height: 200px;
   }
+
+  .project-item {
+    width: 270px;
+    height: 180px;
+  }
 }
 
 @media all and (max-width: 640px) {
+
   section,
   header,
   footer {
