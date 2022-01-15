@@ -11,6 +11,13 @@ footer {
   border-top: 3px solid rgb(165, 165, 165);
 }
 
+.footer-content a {
+  transition: 0.4s;
+}
+
+.footer-content a:hover {
+  opacity: 0.7;
+}
 
 .github_lg,
 .rss_lg,

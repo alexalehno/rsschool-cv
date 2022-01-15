@@ -203,4 +203,10 @@ h1 {
   font-size: 21px;
   font-weight: 600;
   color: #5055ef;
+  transition: 0.4s;
+}
+
+.certificate-ref:hover,
+.graduation-project-ref:hover {
+  opacity: 0.7;
 }
