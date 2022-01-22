@@ -33,7 +33,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .nav-item {
@@ -41,7 +41,7 @@ nav {
 }
 
 .nav-item a {
-  padding: 5px;
+  padding: 5px 0;
   text-decoration: none;
   color: black;
   transition: 0.4s;
@@ -50,4 +50,3 @@ nav {
 .nav-item a:hover {
   color: rgb(255, 145, 0);
 }
-
