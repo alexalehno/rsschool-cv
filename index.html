@@ -20,7 +20,7 @@
     <div class="container nav-container bg-nav">
       <nav>
         <h3 class="nav-header">Navigation</h3>
-        <ul class="nav-items ">
+        <ul class="nav-items">
           <li class="nav-item"><a href="#objective">Objective</a></li>
           <li class="nav-item"><a href="#summury">Summury</a></li>
           <li class="nav-item"><a href="#skills">Skills</a></li>
@@ -29,7 +29,7 @@
           <li class="nav-item"><a href="#code">Code</a></li>
           <li class="nav-item"><a href="#education">Education</a></li>
           <li class="nav-item"><a href="#courses">Courses</a></li>
-          <li class="nav-item"><a href="#additional">Additional</a></li>
+          <li class="nav-item"><a href="#additional">Additionally</a></li>
         </ul>
       </nav>
     </div>
@@ -39,8 +39,7 @@
     <section class="contact-info">
       <div class="container bg-color">
         <div class="wrap-h1-burger">
-          <h1>ALEKSANDR ALEHNO</h1>
-
+          <h1 class="trans-item">ALEKSANDR ALEHNO</h1>
           <div class="burger__menu">
             <span class="burger__line_top"></span>
             <span class="burger__line_bottom"></span>
@@ -73,15 +72,15 @@
 
     <section class="objective-section" id="objective">
       <div class="container bg-color">
-        <h2>Objective</h2>
-        <p>Front-end Developer</p>
+        <h2 class="section-title">Objective</h2>
+        <p class="trans-item">Front-end Developer</p>
       </div>
     </section>
 
     <section id="summury">
       <div class="container bg-color">
-        <h2>Summury</h2>
-        <p class="text_indent">
+        <h2 class="section-title">Summury</h2>
+        <p class="trans-item text_indent">
           When new technologies are released in the field of web development,
           I strive to study and understand them in full. Communication with
           the team not only contributes to more productive work, but also
@@ -93,7 +92,7 @@
 
     <section id="skills">
       <div class="container bg-color">
-        <h2>Skills</h2>
+        <h2 class="section-title">Skills</h2>
         <ul class="skills-list">
           <li class="skills-item">JavaScript, ES6</li>
           <li class="skills-item">HTML, HTML5,</li>
@@ -101,15 +100,15 @@
           <li class="skills-item">AJAX, SPA, JSON,</li>
           <li class="skills-item">Canvas, SVG,</li>
           <li class="skills-item">Git, OOP</li>
-          <li class="skills-item english"><b>English Proficiency: Pre-Intermediate</b></li>
+          <li class="skills-item english"><b>English: Pre-Intermediate</b></li>
         </ul>
       </div>
     </section>
 
     <section id="projects">
       <div class="container bg-color">
-        <h2>Projects</h2>
-        <p>There are some projects here:</p>
+        <h2 class="section-title">Projects</h2>
+        <p class="trans-item">There are some projects here:</p>
         <div class="project-wrap">
 
           <div class="project-item project-one">
@@ -175,33 +174,35 @@
 
     <section id="experience">
       <div class="container bg-color">
-        <h2>Work experience</h2>
-        <p>
-          <b>04.2021 - 05.2021</b><br />
-          <b> IT-Academy</b><br />
-          Working on a
-          <a class="graduation-project-ref" href="https://alexalehno.github.io/Aleksandr_Alehno/project/"
-            target="project-1">graduation project</a>
-          .<br />
-          The project is a single-page web application. HTML, CSS and
-          JavaScript technologies were used.
-        </p>
-        <p>
-          <b>02.2020 - 03.2020</b><br />
-          <b> IT-Academy</b><br />
-          Working on a
-          <a class="graduation-project-ref" href="https://alexalehno.github.io/boostfolia/src/"
-            target="project-2">graduation project</a>.<br />
-          The project is a cross-browser responsive website. HTML, CSS, Gulp,
-          SASS, jQuery, JavaScript, Grid Layout, BEM technologies were used.
-        </p>
+        <h2 class="section-title">Experience</h2>
+
+        <div class="work-item">
+          <span class="work-date">04.2021 - 05.2021</span>
+          <span class="work-name">IT-Academy</span>
+          <p class="work-project-ref"><span class="work-content">Working on a </span><a class="graduation-project-ref"
+              href="https://alexalehno.github.io/Aleksandr_Alehno/project/" target="project-1"><span
+                class="work-content">graduation project.</span></a></p>
+          <p class="work-project-tech work-content">The project is a single-page web application. HTML, CSS and JavaScript
+            technologies were used.</p>
+        </div>
+
+        <div class="work-item">
+          <span class="work-date">02.2020 - 03.2020</span>
+          <span class="work-name">IT-Academy</span>
+          <p class="work-project-ref"><span class="work-content">Working on a </span><a class="graduation-project-ref"
+              href="https://alexalehno.github.io/boostfolia/src/" target="project-2"><span class="work-content">graduation
+                project.</span></a></p>
+          <p class="work-project-tech work-content">The project is a cross-browser responsive website. HTML, CSS, Gulp,
+            SASS, jQuery, JavaScript, Grid Layout, BEM technologies were used.</p>
+        </div>
+
       </div>
     </section>
 
     <section id="code">
       <div class="container bg-color">
-        <h2>Сode example</h2>
-        <p>Sum all the values that don't appear below "0".</p>
+        <h2 class="section-title">Code</h2>
+        <p class="trans-item">Sum all the values that don't appear below "0".</p>
         <pre class="code-example ">
   <code class="prettyprint code-item">
     function getMatrixElementsSum(matrix) {
@@ -226,68 +227,75 @@
 
     <section id="education">
       <div class="container bg-color">
-        <h2>Education</h2>
+        <h2 class="section-title">Education</h2>
         <p>
-          <b>09.2014 - 06.2018</b> <br />
-          <b>State Academy of Communications</b> , Minsk<br />
-          Infocommunication networks
+          <span class="education-date">09.2014 - 06.2018</span>
+          <span class="university">State Academy of Communications</span>, <span class="education-city">Minsk</span>
+          <span class="education-direction">Infocommunication networks</span>
         </p>
       </div>
     </section>
 
     <section id="courses">
       <div class="container bg-color">
-        <h2>Courses</h2>
-        <p>
-          <b>07.2021 - 9.2021</b> <br />
-          <b>The Rolling Scopes School </b> <br />
-          JavaScript/Front-end <br />
-          <a class="certificate-ref"
+        <h2 class="section-title">Courses</h2>
+
+        <div class="course-item">
+          <span class="course-date">07.2021 - 9.2021</span>
+          <span class="course-institute">The Rolling Scopes School</span>
+          <span class="course-city course-content"></span>
+          <span class="course-name course-content">JavaScript/Front-end</span>
+          <span class="course-tech course-content"></span>
+          <a class="certificate-ref course-content"
             href="https://alexalehno.github.io/Aleksandr_Alehno/certificate_RSSchool_stage0/certificate-rsschool.html"
             target="certificate-3">Certificate
             of successful completion of the course</a>
-        </p>
+        </div>
 
-        <p>
-          <b>02.2021 - 05.2021</b> <br />
-          <b>IT-Academy</b>, Minsk <br />
-          Web application development with JavaScript<br />
-          Studied: function, array, object, OOP, event, timer, animation,
-          JSON, AJAX, SPA, GIT<br />
-          <a class="certificate-ref" href="https://alexalehno.github.io/Aleksandr_Alehno/certificate/certificate.html"
-            target="certificate-2">Certificate of successful
-            completion of the course</a>
-        </p>
+        <div class="course-item">
+          <span class="course-date">02.2021 - 05.2021</span>
+          <span class="course-institute">IT-Academy,</span>
+          <span class="course-city course-content">Minsk</span>
+          <span class="course-name course-content">Web application development with JavaScript</span>
+          <span class="course-tech course-content">Studied: function, array, object, OOP, event, timer, animation, JSON,
+            AJAX, SPA, GIT</span>
+          <a class="certificate-ref course-content"
+            href="https://alexalehno.github.io/Aleksandr_Alehno/certificate/certificate.html"
+            target="certificate-2">Certificate
+            of successful completion of the course</a>
+        </div>
 
-        <p>
-          <b>11.2019 - 03.2020</b> <br />
-          <b>IT-Academy</b>, Minsk <br />
-          Website development using HTML, CSS, and JavaScript <br />
-          Studied: HTML5, CSS3, Sass, Flex, Greed, Animation, form, Adaptive
-          Web Design, media-queries<br />
-          <a class="certificate-ref"
+        <div class="course-item">
+          <span class="course-date">11.2019 - 03.2020</span>
+          <span class="course-institute">IT-Academy,</span>
+          <span class="course-city course-content">Minsk</span>
+          <span class="course-name course-content">Website development using HTML, CSS, and JavaScript</span>
+          <span class="course-tech course-content">Studied: HTML5, CSS3, Sass, Flex, Greed, Animation, form, Adaptive Web
+            Design, media-queries</span>
+          <a class="certificate-ref course-content"
             href="https://alexalehno.github.io/Aleksandr_Alehno/certificate_HTML_CSS_JS/certificate_HTML_CSS_JS.html"
             target="certificate-1">Certificate
             of successful completion of the course</a>
-        </p>
+        </div>
+
       </div>
     </section>
 
     <section id="additional">
       <div class="container bg-color">
-        <h2>Additional Information</h2>
+        <h2 class="section-title">Additionally</h2>
         <p class="text_indent">
-          I am fond of music, reading professional literature (“You don't know
-          JS”, “Expressive JavaScript”, ”Grokking Algorithms” ), watching
-          movies and TV shows. I get acquainted with the technical
-          documentation on the official websites (
+          <span class="additionally-content">I am fond of music, reading professional literature (“You don't know
+            JS”, “Expressive JavaScript”, ”Grokking Algorithms” ), watching
+            movies and TV shows. I get acquainted with the technical
+            documentation on the official websites</span> (
           <a href="https://developer.mozilla.org/en-US/" target="mdn">developer.mozilla.org</a>
           , <a href="https://www.w3schools.com/" target="w3">www.w3schools.com</a> ,
           <a href="https://html.spec.whatwg.org/" target="whatwg">html.spec.whatwg.org</a> ,
           <a href="https://262.ecma-international.org/" target="ecma">262.ecma-international.org</a>
-          ). In between studying new technologies, I try to set aside time for
-          independent learning to play the electric guitar, and also attend
-          various concerts, festivals and theater performances.
+          ). <span class="additionally-content"> In between studying new technologies, I try to set aside time for
+            independent learning to play the electric guitar, and also attend
+            various concerts, festivals and theater performances.</span>
         </p>
       </div>
     </section>
@@ -296,12 +304,24 @@
   <footer>
     <div class="container bg-color">
       <div class="footer-content">
-        <time class="date_footer" datetime="2021-07-18">&#169; 2021</time>
-        <a href="https://github.com/alexalehno" target="github">
-          <img class="github_lg" src="./media/GitHub-Mark-32px.png" alt="github logo" /></a>
 
-        <a href="https://rs.school/js/" target="school">
-          <img class="rss_lg" src="https://rs.school/images/rs_school_js.svg" alt="rss logo" /></a>
+        <div class="footer-content-wrap">
+          <time class="date_footer" datetime="2021-07-18">&#169; 2021</time>
+          <a class="github_ref" href="https://github.com/alexalehno" target="github">
+            <img class="github_img" src="./media/GitHub-Mark-32px.png" alt="github logo" /></a>
+
+          <a class="rss_ref" href="https://rs.school/js/" target="school">
+            <img class="github_img" src="https://rs.school/images/rs_school_js.svg" alt="rss logo" /></a>
+        </div>
+
+        <div class="lang-block">
+          <span class="lang-title">Lang:</span>
+          <select class="lang-switch">
+            <option value="en">en</option>
+            <option value="ru">ru</option>
+          </select>
+        </div>
+
       </div>
     </div>
   </footer>
