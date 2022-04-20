@@ -1,12 +1,14 @@
 "use strict";
 
-const burgerMenu = document.querySelector('.burger__menu');
-const nav = document.querySelector('nav');
+const burgerMenu = document.querySelector('.burger');
+const nav = document.querySelector('.nav');
 
 burgerMenu.addEventListener("click", () => {
-  burgerMenu.classList.toggle("menu__active");
-  nav.classList.toggle("nav-hidden");
+  burgerMenu.classList.toggle("burger--active");
+  nav.classList.toggle("nav--show");
 });
+
+
 
 // ................translate...............
 
@@ -70,13 +72,13 @@ const additionally = {
   ru: ['Увлекаюсь музыкой, чтением профессианальной литературы (“Вы не знаете JS”, “Выразительный JavaScript”, ”Грокаем алгоритмы”). С технической документациейознакамливаюсь на официальных сайтах', 'В перерывах между изучением новых технологий стараюсь выделять время для самостоятельного обучения игре на электрогитаре, а также посещаю различные концерты, фестивали и театральные представления.'],
 }
 
-const langSwitch = document.querySelector('.lang-switch');
+const langSwitch = document.querySelector('.lang__switch');
 const headers = document.querySelectorAll('.section-title');
-const navItems = nav.querySelectorAll('.nav-item > a');
+const navItems = nav.querySelectorAll('.nav__link');
 
 const transItems = document.querySelectorAll(".trans-item")
 const workItems = document.querySelectorAll('.work-item');
-const educationBlock = document.querySelectorAll('.university, .education-city, .education-direction');
+const educationBlock = document.querySelectorAll('.education__university, .education__city, .education__direction');
 const courseItems = document.querySelectorAll('.course-item');
 const additionallyBlock = document.querySelectorAll('.additionally-content');
 

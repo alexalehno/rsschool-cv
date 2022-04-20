@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,28 +13,17 @@ body {
   background-color: #8f8f8f;
 }
 
-header,
-section,
-footer {
-  padding: 0 20px;
-}
-
 .container {
   max-width: 1030px;
-  padding: 5px 50px;
+  padding: 2px 40px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
+/* .......... */
 .section-title {
   padding-left: 10px;
   margin-top: 0;
   background-color: rgb(190, 184, 184);
-}
-
-h4 {
-  display: inline-block;
-  margin: 0;
 }
 
 p,
@@ -38,6 +31,7 @@ span {
   line-height: 30px;
 }
 
+/* .......... */
 .bg-color {
   background-color: beige;
 }
