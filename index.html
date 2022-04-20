@@ -16,6 +16,7 @@
 </head>
 
 <body>
+
   <header class="header container bg-color">
     <nav class="nav nav--bg">
       <h3 class="nav__title">Navigation</h3>
@@ -198,11 +199,12 @@
 
         <p class="work-item__project"><span class="work-content">Working on a </span>
           <a class="work-item__link" href="https://alexalehno.github.io/boostfolia/src/" target="project-2">
-            <span class="work-content">graduation  project.</span>
+            <span class="work-content">graduation project.</span>
           </a>
         </p>
 
-        <p class="work-item__description work-content">The project is a cross-browser responsive website. HTML, CSS, Gulp,
+        <p class="work-item__description work-content">The project is a cross-browser responsive website. HTML, CSS,
+          Gulp,
           SASS, jQuery, JavaScript, Grid Layout, BEM technologies were used.
         </p>
       </div>
@@ -212,23 +214,23 @@
       <h2 class="section-title">Code</h2>
       <p class="trans-item">Sum all the values that don't appear below "0".</p>
       <pre class="code-example ">
-  <code class="prettyprint code-item">
-    function getMatrixElementsSum(matrix) {
-      let sum = 0;
-      for (let i = 0; i &lt; matrix.length; i++) {
-        next: for (let j = 0; j &lt; matrix[i].length; j++) {
-          if (matrix[i - 1]) {
-            if (matrix[i - 1][j] === 0) {
-              continue next;
+    <code class="prettyprint code-item">
+      function getMatrixElementsSum(matrix) {
+        let sum = 0;
+        for (let i = 0; i &lt; matrix.length; i++) {
+          next: for (let j = 0; j &lt; matrix[i].length; j++) {
+            if (matrix[i - 1]) {
+              if (matrix[i - 1][j] === 0) {
+                continue next;
+              }
             }
+            sum += matrix[i][j];
           }
-          sum += matrix[i][j];
         }
+        return sum;
       }
-      return sum;
-    }
-  </code>
-</pre>
+    </code>
+  </pre>
 
     </section>
 

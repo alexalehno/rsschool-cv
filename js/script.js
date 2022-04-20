@@ -3,12 +3,20 @@
 const burgerMenu = document.querySelector('.burger');
 const nav = document.querySelector('.nav');
 
-burgerMenu.addEventListener("click", () => {
+function showMenu() {
   burgerMenu.classList.toggle("burger--active");
   nav.classList.toggle("nav--show");
-});
+}
 
+burgerMenu.addEventListener("click", showMenu);
 
+nav.addEventListener('click', (e) => {
+  if (e.target.closest('.nav__link')) {
+    return;
+  }
+
+  showMenu();
+})
 
 // ................translate...............
 
