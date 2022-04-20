@@ -26,6 +26,7 @@
   display: block;
   width: 45px;
   height: 9px;
+  border-radius: 10px;
   transition: 0.4s;
   background-color: rgb(153 2 2);
 }
@@ -99,7 +100,7 @@
 
 .skills__item::before {
   position: absolute;
-  top: 6px;
+  top: 3px;
   left: 2px;
 }
 
@@ -233,7 +234,7 @@
   margin: 0;
 }
 
-/* ....................... */
+/* ...........code............ */
 
 .code-example {
   overflow: auto;
