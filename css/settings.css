@@ -35,3 +35,7 @@ span {
 .bg-color {
   background-color: beige;
 }
+
+.fixed {
+  position: fixed;
+}
