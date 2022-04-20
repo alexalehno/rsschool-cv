@@ -1,4 +1,8 @@
 @media all and (max-width: 915px) {
+  body {
+    overflow: hidden;
+  }
+
   .nav {
     position: absolute;
     top: 110px;
