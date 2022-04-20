@@ -80,7 +80,7 @@
   }
 
   .container {
-    padding: 5px 20px;
+    padding: 5px 15px;
   }
 
   /* ...................... */
@@ -100,8 +100,8 @@
   /* ...................... */
 
   .contacts__photo {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
   }
 
   /* ...................... */
@@ -112,15 +112,11 @@
   }
 
   .footer {
-    padding: 10px;
+    padding: 20px;
   }
 }
 
 @media all and (max-width: 640px) {
-  .container {
-    padding: 5px 10px;
-  }
-
   .contacts {
     flex-wrap: wrap-reverse;
   }
@@ -131,7 +127,6 @@
 
   .footer {
     justify-content: space-between;
-    padding: 10px;
   }
 
   .footer__content {
@@ -143,6 +138,10 @@
 @media all and (max-width: 418px) {
   .nav {
     top: 135px;
+  }
+
+  .title-and-burger {
+    padding-bottom: 10px;
   }
 
   section,
@@ -157,9 +156,12 @@
     line-height: 26px;
   }
 
-
   .title {
     font-size: 30px;
+  }
+
+  .projects-item {
+    box-shadow: 0px 0px 10px 3px rgb(0 0 0 / 40%);
   }
 
   .skills__list {
