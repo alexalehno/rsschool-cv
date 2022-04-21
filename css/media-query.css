@@ -135,9 +135,13 @@
   }
 }
 
-@media all and (max-width: 418px) {
+@media all and (max-width: 429px) {
   .nav {
     top: 135px;
+  }
+
+  .code-item {
+    height: 370px;
   }
 
   .title-and-burger {

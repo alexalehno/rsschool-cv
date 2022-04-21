@@ -43,13 +43,13 @@ const transContent = {
 
 const experience = {
   0: {
-    en: ["Working on a ", "graduation project.", "The project is a single-page web application. HTML, CSS and JavaScript technologies were used."],
-    ru: ["Работа над ", "учебным проектом.", "Проект представляет собой одностраничное веб-приложение. Примененные технологии: HTML, CSS, JavaScript."],
+    en: ["Development of ", "the graduation project.", "The project is a single-page web application. HTML, CSS and JavaScript technologies were used."],
+    ru: ["Разработка  ", "учебного проекта.", "Проект представляет собой одностраничное веб-приложение. Примененные технологии: HTML, CSS, JavaScript."],
   },
 
   1: {
-    en: ["Working on a ", "graduation project.", "The project is a cross-browser responsive website. HTML, CSS, Gulp, SASS, jQuery, JavaScript, Grid Layout, BEM technologies were used."],
-    ru: ["Работа над ", "учебным проектом.", "Проект представляет собой кроссбраузерный адаптивный веб-сайт. Примененные технологии: HTML, CSS, Gulp, SASS, jQuery, JavaScript, БЭМ, Grid Layout."],
+    en: ["Development of ", "the graduation project.", "The project is a cross-browser responsive website. HTML, CSS, Gulp, SASS, jQuery, JavaScript, Grid Layout, BEM technologies were used."],
+    ru: ["Разработка ", "учебного проекта.", "Проект представляет собой кроссбраузерный адаптивный веб-сайт. Примененные технологии: HTML, CSS, Gulp, SASS, jQuery, JavaScript, БЭМ, Grid Layout."],
   },
 }
 
@@ -76,8 +76,8 @@ const courses = {
 }
 
 const additionally = {
-  en: ['I am fond of music, reading professional literature (“You don\'t know JS”, “Expressive JavaScript”, ”Grokking Algorithms” ), watching movies and TV shows. I get acquainted with the technical documentation on the official websites', 'In between studying new technologies, I try to set aside time for independent learning to play the electric guitar, and also attend various concerts, festivals and theater performances.'],
-  ru: ['Увлекаюсь музыкой, чтением профессианальной литературы (“Вы не знаете JS”, “Выразительный JavaScript”, ”Грокаем алгоритмы”). С технической документациейознакамливаюсь на официальных сайтах', 'В перерывах между изучением новых технологий стараюсь выделять время для самостоятельного обучения игре на электрогитаре, а также посещаю различные концерты, фестивали и театральные представления.'],
+  en: ['I am fond of reading books (“You don\'t know JS”, “Expressive JavaScript”, ”Grokking Algorithms”), watching movies and TV shows. I study technical documentation on official websites', 'In my free time, I learn to play the electric guitar, and also attend various concerts and festivals.'],
+  ru: ['Увлекаюсь чтением книг (“Вы не знаете JS”, “Выразительный JavaScript”, ”Грокаем алгоритмы”), просмотр фильмов и сериалов. Техническую документацию изучаю на официальных сайтах', 'В свободное время учусь играть на электрогитаре, а также посещаю различные концерты и фестивали.'],
 }
 
 const langSwitch = document.querySelector('.lang__switch');
