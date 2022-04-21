@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -36,6 +37,3 @@ span {
   background-color: beige;
 }
 
-.fixed {
-  position: fixed;
-}
