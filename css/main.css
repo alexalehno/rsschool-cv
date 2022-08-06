@@ -217,6 +217,10 @@
   background-image: url("../media/project8.jpg");
 }
 
+.projects-item--nine {
+  background-image: url("../media/project9.jpg");
+}
+
 /* ...................work..................... */
 
 .work-item {
