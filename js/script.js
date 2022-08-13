@@ -70,14 +70,14 @@ const courses = {
   },
 
   2: {
-    en: ["Minsk", "Website development using HTML, CSS, and JavaScript", "Studied: HTML5, CSS3, Sass, Flex, Greed, Animation, form, Adaptive Web Design, media-queries", "Certificate of successful completion of the course"],
+    en: ["Minsk", "Website development with HTML, CSS, and JavaScript", "Studied: HTML5, CSS3, Sass, Flex, Greed, Animation, form, Adaptive Web Design, media-queries", "Certificate of successful completion of the course"],
     ru: ["Минск", "Разработка веб-сайтов с использованием HTML, CSS и JavaScript", "Изучил: HTML5, CSS3, Sass, Flex, Greed, Анимация, Формы, Адаптивная верстка, Медиа-запросы", "Сертификат об успешном завершении курса"],
   },
 }
 
 const additionally = {
-  en: ['I am fond of reading books (“You don\'t know JS”, “Expressive JavaScript”, ”Grokking Algorithms”), watching movies and TV shows. I study technical documentation on official websites', 'In my free time, I learn to play the electric guitar, and also attend various concerts and festivals.'],
-  ru: ['Увлекаюсь чтением книг (“Вы не знаете JS”, “Выразительный JavaScript”, ”Грокаем алгоритмы”), просмотр фильмов и сериалов. Техническую документацию изучаю на официальных сайтах', 'В свободное время учусь играть на электрогитаре, а также посещаю различные концерты и фестивали.'],
+  en: ['I am fond of reading books (“You don\'t know JS”, “Expressive JavaScript”, ”Grokking Algorithms”), watching movies and TV shows. I study technical documentation on official websites', 'In my free time, I learn to play the electric guitar, and also attend various concerts and events.'],
+  ru: ['Увлекаюсь чтением книг (“Вы не знаете JS”, “Выразительный JavaScript”, ”Грокаем алгоритмы”), просмотр фильмов и сериалов. Техническую документацию изучаю на официальных сайтах', 'В свободное время учусь играть на электрогитаре, а также посещаю различные концерты и мероприятия.'],
 }
 
 const langSwitch = document.querySelector('.lang__switch');
