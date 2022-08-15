@@ -43,13 +43,13 @@ const transContent = {
 
 const experience = {
   0: {
-    en: ["Development of ", "the graduation project.", "The project is a single-page web application. HTML, CSS and JavaScript technologies were used."],
-    ru: ["Разработка  ", "учебного проекта.", "Проект представляет собой одностраничное веб-приложение. Примененные технологии: HTML, CSS, JavaScript."],
+    en: ["Training at the IT Academy", "Development of ", "the graduation project.", "The project is a single-page web application. HTML, CSS and JavaScript technologies were used."],
+    ru: ["Обучение в IT Academy", "Разработка  ", "учебного проекта.", "Проект представляет собой одностраничное веб-приложение. Примененные технологии: HTML, CSS, JavaScript."],
   },
 
   1: {
-    en: ["Development of ", "the graduation project.", "The project is a cross-browser responsive website. HTML, CSS, Gulp, SASS, jQuery, JavaScript, Grid Layout, BEM technologies were used."],
-    ru: ["Разработка ", "учебного проекта.", "Проект представляет собой кроссбраузерный адаптивный веб-сайт. Примененные технологии: HTML, CSS, Gulp, SASS, jQuery, JavaScript, БЭМ, Grid Layout."],
+    en: ["Training at the IT Academy", "Development of ", "the graduation project.", "The project is a cross-browser responsive website. HTML, CSS, Gulp, SASS, jQuery, JavaScript, Grid Layout, BEM technologies were used."],
+    ru: ["Обучение в IT Academy", "Разработка ", "учебного проекта.", "Проект представляет собой кроссбраузерный адаптивный веб-сайт. Примененные технологии: HTML, CSS, Gulp, SASS, jQuery, JavaScript, БЭМ, Grid Layout."],
   },
 }
 
