@@ -225,6 +225,10 @@
   background-image: url("../media/project10.jpg");
 }
 
+.projects-item--eleven {
+  background-image: url("../media/project11.jpg");
+}
+
 /* ...................work..................... */
 
 .work-item {
